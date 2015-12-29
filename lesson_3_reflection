@@ -6,24 +6,49 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    the changes on GitHub might be yet to be finished or temporary, 
+    so real-time sync might result in some unclear or useless commits
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    forks are copies of repositories from others' GitHub account created in my GitHub account as one of my repositories
+    I would use forks when I would like to work on other's repository and share my own version with the public 
+    (without affecting other's original work, as I probably would not be a contributor)
+
+    clones are copies of repositories from others' GitHub account downloaded to my local machine or 
+    simply a copy of an existing repository on my computer to another position
+    I would use clones when I would like to work on other's repository, but do not want or need to share my own version with the public
+
+    branches are much different from forks and clones
+    branches are series of commits apart from the main branch which should be the official working product
+    I would use branches mostly when I would like to test out some new features or new approaches to old problems 
+    in which these are not sure to be working, so branches could help me to explore these new things without worrying damaging the working product, 
+    and probably I would merge the new branch to the main branch to include the finished new features
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    it allows working offline
+    does not need to always refer to the online version when working offline in case the shared version is updated
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    without using Git or GitHub, I need to collaborate by organizing a meeting with my colleagues to discuss and 
+    probably work on 1 single computer together to alter the code
+
+    Git, or GitHub to be more precise, makes collaboration much easier, 
+    as I can share my code and receive feedback without having face-to-face conversations, 
+    instead, we could work on the same project on the GitHub platform and make comments and contributions through pull request, 
+    this could result in faster development process
+
+    yet, these feedback conversations are less efficient as they are not real-time, which could be slightly frustrating
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    when others are working on different branches and we both want to incorporate our work into the master branch, 
+    it is better to incorporate the 2 branches together first, probably solving the conflict between the 2 branches, 
+    before incorporating into the master branch, 
+    this ensures the master branch contains a working version of the product which include the branches work flawlessly
